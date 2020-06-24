@@ -1,0 +1,266 @@
+html {
+	font-size: 16px;
+}
+body {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    color: #445D3E;
+}
+h1, h2 {
+	
+	font-weight: 600;
+}
+h1 {
+		font-size: 2.2rem;
+}
+h2 {
+	font-size: 1.65rem;
+	color: #6EBEA0;
+}
+.navbar {
+    background-color: #FBFCCA;
+    color: green;
+    font-size: 1.1rem;
+    -webkit-box-shadow: 0px 2px 5px #e0e0e0;
+    box-shadow: 0px 2px 5px #e0e0e0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.hero-heading {
+	margin: 1em auto 0;
+	padding-bottom: .75em;
+	text-align: center;
+	color: #EA7822;
+	
+}
+.nav-footer {
+    background-color: #6EBEA0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.page-wrapper {
+    background-color: #F7F9EC;
+    height: 100vh;
+}
+.container-fluid {
+	background-color: #F7F9EC;
+	padding: 0;
+}
+.sidebar form {
+    border: 2px solid #EA7822;
+    background-color: #FCFDD3;
+}
+
+.inset {
+	padding-right: 5vw;
+	padding-left: 5vw;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+}
+.header-row, .footer {
+		background-color: #6EBEA0;
+}
+.tagline {
+
+	color: #fff;
+}
+
+
+.intro-text {
+}
+.sidebar {
+}
+.sidebar a {
+	color: #394D34;
+}
+ul.nav {
+    font-weight: 600;
+    color: #394D34;
+}
+.front-card {
+	padding: 2vw 5vw 2vw 5vw;
+}
+
+footer {
+    background-color: #6EBEA0;
+}
+footer a {
+	color: #fff;
+}
+.btn-primary {
+    border: none;
+    background-color: #6EBEA0;
+}
+a.btn-primary {
+    color: #FFFFFF;
+}
+.btn-primary:hover {
+    background-color: #F6FA7A;
+}
+.card-row {
+	background-color: #fff;
+}
+
+.employee {
+	display: flex;
+	padding-left: 0;
+	background-color: #fff;
+}
+.employee h5 {
+	color: #EA7822;
+	text-transform: uppercase;
+}
+.img-emp {
+	width: 50%;
+}
+.employee .caption p:first-of-type {
+	color: #6EBEA0;
+}
+.employee .caption p a {
+	color: #394D34;
+}
+.wide {
+	padding-left: 0;
+}
+.emp-text {
+	line-height: 1.1em;
+	font-size: .75rem;
+}
+.step-icon {
+    background-color: #EA7822;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    z-index: 10;
+    display: flex;
+    /* [disabled]align-content: center; */
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+}
+.special-num {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: -5px;
+    padding-top: 0px;
+}
+
+.step-card {
+	padding: 2vw;
+}
+.card-icon {
+	height: 115px;
+	margin: 0 auto;
+}
+.align-content-ccenter {
+}
+.btn-info {
+    background-color: rgba(234,120,34,1.00);
+	border: none;
+	align-self: flex-end;
+}
+.btn-info:hover {
+    background-color: rgba(234,120,34,0.38);
+	border: none;
+}
+.img-thumbnail {
+	border: none;
+	margin-bottom: 8px;
+}
+
+.p-10 {
+}
+.service-hero {
+    background-image: url("../images/woman-in-black-blazer-sitting-on-black-office-chair-3727464.jpg");
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.services-table h4 {
+	color:#6EBEA0;
+	text-transform:uppercase;
+	text-weight: 700;
+}
+
+.table-right {
+    background-color: #F6FA7A;
+    font-size: 2rem;
+}
+table th {
+    background-color: rgba(234,120,34,1.00);
+    padding: 5px;
+    color: #fff;
+}
+.vert-menu {
+    background-color: #F6F8B9;
+}
+ul {
+	list-style: none;
+}
+.contact-form {
+	padding: 20px 20px 20px 40px;
+	background-color: #fff;
+	
+}
+.a-l {
+}
+.client-glo-cards h4, .coach-glo-cards h4, h2.coach, h2.client {
+	padding: 5px;
+	color: #fff;
+}
+.client-glo-cards i {
+	color: #EA7822;
+}
+.coach-glo-cards h4, h2.coach {
+	background-color: #EA7822;
+}
+.coach-glo-cards i  {
+	color: #6EBEA0;
+}
+.client-glo-cards h4, h2.client {
+	background-color: #6EBEA0;
+}
+img.rounded-circle {
+    max-width: 150px;
+}.primary {
+}
+.client {
+}
+.coach {
+}
+.navbar-nav.mx-auto .nav-item .nav-link {
+    color: #394D34;
+}
+.navbar-nav.mx-auto .nav-item .nav-link:hover  {
+    color: #EA7822;
+}
+.nav-footer {
+}
+.nav-footer .nav-link  {
+    background-color: none;
+    color: #394D34;
+}
+.nav-footer .navbar-nav .nav-item .nav-link:hover   {
+    color: #F6FA7A;
+}
+.d-flex-column {
+}
+.justify-self-center {
+}
+.nav-pills li a {
+    color: #EA7822;
+}
+.nav-pills li {
+    margin-bottom: 7px;
+}
+main {
+    margin-top: 8.5em;
+}
+.services-table ul {
+    list-style: square;
+}
+.services-table tr {
+    border-bottom: 2px solid #ea7822;
+}
