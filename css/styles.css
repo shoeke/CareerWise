@@ -192,6 +192,9 @@ a.btn-primary {
 .services-table > tbody > tr > th {
   vertical-align: top;
 }
+.services-table > tbody > tr > td {
+  vertical-align: top;
+}
 .services-table th {
 	border-left: 1px solid #F6FA7A50;
 }
@@ -402,4 +405,6 @@ img.rounded-circle {
 .p3 {
 }
 .mr-sm-3 {
+}
+.th-table-center {
 }
