@@ -4,6 +4,8 @@ html {
 body {
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
     color: #445D3E;
+    padding-top: 9em;
+    background-color: #FDFEED;
 }
 h1, h2 {
 	
@@ -38,23 +40,25 @@ h2 {
     box-shadow: none;
 }
 .page-wrapper {
-    background-color: #F7F9EC;
     height: 100vh;
 }
 .container-fluid {
-	background-color: #F7F9EC;
-	padding: 0;
+    padding: 0;
 }
 .sidebar form {
     border: 2px solid #EA7822;
     background-color: #FCFDD3;
 }
+.bottombar {
+	display: none !important;
+	border-top: 2px solid #EA7822;
+	padding-top: 1.5em;
+}
 
 .inset {
-	padding-right: 5vw;
-	padding-left: 5vw;
-	padding-top: 3vh;
-	padding-bottom: 3vh;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-bottom: 3vh;
 }
 .header-row, .footer {
 		background-color: #6EBEA0;
@@ -63,11 +67,13 @@ h2 {
 
 	color: #fff;
 }
-
-
+	.hero-image + button {
+		width: 50%;
+}
 .intro-text {
 }
-.sidebar {
+#sidebar {
+	display:block;
 }
 .sidebar a {
 	color: #394D34;
@@ -86,6 +92,9 @@ footer {
 footer a {
 	color: #fff;
 }
+.iaop-wrap {
+		display: block;
+	}
 .btn-primary {
     border: none;
     background-color: #6EBEA0;
@@ -230,6 +239,11 @@ img.rounded-circle {
 }
 .coach {
 }
+
+
+.iaop-wrap + h6 {
+	color: #FDFEE4;
+}
 .navbar-nav.mx-auto .nav-item .nav-link {
     color: #394D34;
 }
@@ -255,12 +269,67 @@ img.rounded-circle {
 .nav-pills li {
     margin-bottom: 7px;
 }
-main {
-    margin-top: 8.5em;
-}
+
 .services-table ul {
     list-style: square;
 }
 .services-table tr {
     border-bottom: 2px solid #ea7822;
+}
+@media (max-width:991px) {
+	body {
+		padding-top: 7em;
+	}
+	header h1 {
+		font-size: 1.75rem;
+	}
+			.sidebar {
+		display:none !important;
+	}
+	.bottombar {
+		display: block !important;
+	}
+
+}
+@media (max-width:767px) {
+	html {
+		font-size: 14px;
+	}
+	header h1 {
+		text-align: center;
+	}
+	body {
+		padding-top: 12em;
+	}
+	.hero-heading {
+		display:none !important;
+	}
+	.hero-image + button {
+		width: 100%;
+	}
+			.footer-cert {
+		display:none !important;
+	}
+
+	
+}
+@media (max-width: 575px) {
+	.footer {
+		flex-direction: column-reverse;
+		align-items: center;
+
+	}
+}
+
+.intro-row {
+}
+.btn-md-block {
+}
+.iaop {
+}
+.footer-cert {
+}
+.flex-xs-column {
+}
+.col-xs-12 {
 }
