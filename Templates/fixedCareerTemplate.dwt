@@ -30,7 +30,7 @@
           — wisdom to advance your life.</h1>
       </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light row">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent2">
         <ul class="navbar-nav mx-auto">
@@ -142,7 +142,7 @@
       </div>
     </div>
   </div>
-  <footer class="footer">
+  <footer class="footer row">
     <div class="container-fluid">
       <div class="row footer p-2 d-flex align-items-center flex-sm-column-reverse flex-xs-column-reverse flex-md-row">
         <div class="col-md-2 col-sm-12 my-auto col-12 text-center">

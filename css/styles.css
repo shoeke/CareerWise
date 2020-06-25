@@ -41,9 +41,9 @@ h2 {
 .page-wrapper {
   height: 100vh;
 }
-.container-fluid {
+/*.container-fluid {
   padding: 0;
-}
+}*/
 .sidebar form {
   border: 2px solid #EA7822;
   background-color: #FCFDD3;
@@ -370,6 +370,21 @@ img.rounded-circle {
 	 body {
     padding-top: 7em;
   }
+	.thumbnail .employee {
+		align-items: center;
+	}
+.img-emp {
+    width: 100%;
+	text-align: center;
+}
+	.img-emp .img-thumbnail {
+		width: 65%;
+	}
+	
+ .caption.imp-emp  {
+	width: 100%;
+	text-align: center;
+	}
 }
 @media (max-width: 325px){
 	body {
@@ -385,4 +400,6 @@ img.rounded-circle {
 .btn-cta {
 }
 .p3 {
+}
+.mr-sm-3 {
 }
