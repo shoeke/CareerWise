@@ -65,14 +65,14 @@
           </div>
         </div>
         <!-- TemplateEndEditable -->
-        <div class="sidebar col-lg-2 d-flex flex-column" id="sidebar">
+        <div class="sidebar d-flex-column col-lg-2 d-flex flex-column" id="sidebar">
           <ul class="nav-pills social mb-3  d-flex-column justify-content-center">
             <li class=""><a href="https://www.facebook.com/thedailymuse" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
             <li class="2"><a href="https://www.instagram.com/themuse/" target="_blank"><i class="fab fa-instagram-square"></i> Instagram</a></li>
             <li class=""><a href="https://www.linkedin.com/company/the-daily-muse/" target="_blank"><i class="fab fa-linkedin-square"></i> LinkedIn</a></li>
             <li class="2"><a href="https://twitter.com/TheMuse" target="_blank"><i class="fab fa-twitter-square"></i> Twitter</a></li>
           </ul>
-          <form class="p-4 d-flex-column justify-content-center">
+          <form class="p-2 d-flex-column justify-content-center">
             <div class="form-group">
               <label for="exampleInputEmail1">Sign-Up for News</label>
               <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
@@ -126,15 +126,15 @@
     </div>
     <!-- TemplateEndEditable --> </main>
   <div class="bottombar">
-    <div class="col-lg-12 d-flex flex-column-reverse">
+    <div class="col-12 d-flex flex-column-reverse">
       <ul class="nav-pills social  d-flex justify-content-around">
         <li class=""><a href="https://www.facebook.com/thedailymuse" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
         <li class="2"><a href="https://www.instagram.com/themuse/" target="_blank"><i class="fab fa-instagram-square"></i> Instagram</a></li>
         <li class=""><a href="https://www.linkedin.com/company/the-daily-muse/" target="_blank"><i class="fab fa-linkedin-square"></i> LinkedIn</a></li>
         <li class="2"><a href="https://twitter.com/TheMuse" target="_blank"><i class="fab fa-twitter-square"></i> Twitter</a></li>
       </ul>
-      <div class="p-2 d-flex justify-content-center align-items-center flex-column flex-sm-row">
-        <div class="form-group col-6">
+      <div class="d-flex justify-content-center align-items-center flex-column flex-sm-row mb-4 mb-sm-1">
+        <div class="form-group col-12 col-sm-9 col-md-6">
           <label for="exampleInputEmail2">Sign-Up for News</label>
           <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
           <small id="emailHelp2" class="form-text text-muted">We'll never share your email with anyone else.</small></div>

@@ -165,7 +165,7 @@ a.btn-primary {
   height: 115px;
   margin: 0 auto;
 }
-.align-content-ccenter {}
+
 .btn-info {
   background-color: rgba(234, 120, 34, 1.00);
   border: none;
@@ -183,12 +183,15 @@ a.btn-primary {
   border: none;
   margin-bottom: 8px;
 }
-.p-10 {}
 .services-table > tbody > tr > th {
   vertical-align: top;
 }
+.services-table th {
+	border-left: 1px solid #F6FA7A50;
+}
 .services-table h3 {
   font-size: 1.25rem;
+	padding-left: 5px;
 }
 .services-table h4 {
   color: #6EBEA0;
@@ -198,6 +201,7 @@ a.btn-primary {
 .table-center {
   background-color: #F6C5A0;
   text-align: center;
+	font-size: 1.25rem;
 }
 .table-right {
   background-color: #F6FA7A;
@@ -219,7 +223,9 @@ ul {
   padding: 20px 20px 20px 40px;
   background-color: #fff;
 }
-.a-l {}
+.client-glo-cards .card-body, .coach-glo-cards .card-body {
+	padding: 8px;
+}
 .client-glo-cards h4, .coach-glo-cards h4, h2.coach, h2.client {
   padding: 5px;
   color: #fff;
@@ -288,6 +294,8 @@ img.rounded-circle {
 }
 .services-table ul {
   list-style: square;
+	max-width: 500px;
+	padding-right: 1em;
 }
 .services-table tr {
   border-bottom: 2px solid #ea7822;
@@ -319,6 +327,10 @@ img.rounded-circle {
   .hero-image + button {
     width: 100%;
   }
+	.btn-cta{
+		display: block !important;
+		width: 100% !important;
+	}
   .footer-cert {
     display: none !important;
   }
@@ -363,4 +375,6 @@ img.rounded-circle {
     padding-top: 12em;
   }
 }.px-lg-0 {
+}
+.btn-cta {
 }
