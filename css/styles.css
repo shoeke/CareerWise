@@ -181,21 +181,26 @@ a.btn-primary {
 
 .p-10 {
 }
-.service-hero {
-    background-image: url("../images/woman-in-black-blazer-sitting-on-black-office-chair-3727464.jpg");
-    background-size: contain;
-    width: 100%;
-    background-repeat: no-repeat;
+
+.services-table > tbody > tr > th {
+     vertical-align: top;
+}
+.services-table h3 {
+	font-size: 1.25rem;
 }
 .services-table h4 {
 	color:#6EBEA0;
 	text-transform:uppercase;
 	text-weight: 700;
 }
-
+.table-center {
+	background-color: #F6C5A0;
+		text-align:center;
+}
 .table-right {
     background-color: #F6FA7A;
     font-size: 2rem;
+	text-align:center;
 }
 table th {
     background-color: rgba(234,120,34,1.00);
@@ -230,6 +235,12 @@ ul {
 }
 .client-glo-cards h4, h2.client {
 	background-color: #6EBEA0;
+}
+.glo-info {
+	width: 100%;
+}
+.glo-image {
+	width: 25%;
 }
 img.rounded-circle {
     max-width: 150px;
@@ -311,16 +322,26 @@ img.rounded-circle {
 		display:none !important;
 	}
 
+	.glo-info {
+		width: 100%;
+	}
+		.glo-image {
+		display: none !important;
+	}
 	
 }
 @media (max-width: 575px) {
 	.footer {
 		flex-direction: column-reverse;
 		align-items: center;
+	}
 
+}
+@media (min-width: 1600px) {
+	body {
+		padding-top: 12em;
 	}
 }
-
 .intro-row {
 }
 .btn-md-block {
@@ -332,4 +353,14 @@ img.rounded-circle {
 .flex-xs-column {
 }
 .col-xs-12 {
+}
+.PL-5 {
+}
+.w-md-75 {
+}
+.glo-image {
+}
+.glo-info {
+}
+.w-30 {
 }
