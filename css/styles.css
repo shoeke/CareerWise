@@ -102,13 +102,18 @@ footer a {
 a.btn-primary {
     color: #FFFFFF;
 }
-.btn-primary:hover {
+.btn-primary:hover, a:hover {
     background-color: #F6FA7A;
+}
+.btn-primary:active, .btn-primary:focus, btn-primary:not(:disabled):not(.disabled):active {
+	background-color: #FBFDD1 !important;
 }
 .card-row {
 	background-color: #fff;
 }
-
+.card {
+	border: 1px solid #EA7822;
+}
 .employee {
 	display: flex;
 	padding-left: 0;
@@ -172,6 +177,10 @@ a.btn-primary {
 }
 .btn-info:hover {
     background-color: rgba(234,120,34,0.38);
+	border: none;
+}
+.btn-info:not(:disabled):not(.disabled):active, .btn-info:focus {
+	background-color: #F6FA7A;
 	border: none;
 }
 .img-thumbnail {
@@ -244,14 +253,22 @@ ul {
 }
 img.rounded-circle {
     max-width: 150px;
-}.primary {
 }
-.client {
+.coach-profile-cards {
+	max-width: 400px;
 }
-.coach {
+.industry {
+	color: #EA7822;
+	font-size: 1.25rem;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 0;
 }
-
-
+.coach-info {
+	line-height: 1.25;
+	color: #496343;
+}
 .iaop-wrap + h6 {
 	color: #FDFEE4;
 }
