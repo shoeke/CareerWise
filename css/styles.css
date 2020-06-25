@@ -53,6 +53,12 @@ h2 {
   border-top: 2px solid #EA7822;
   padding-top: 1.5em;
 }
+.bottombar .social {
+	font-size: 2rem;
+}
+.bottombar ul {
+	padding:0;
+}
 .inset {
   padding-right: 1vw;
   padding-left: 1vw;
@@ -377,4 +383,6 @@ img.rounded-circle {
 }.px-lg-0 {
 }
 .btn-cta {
+}
+.p3 {
 }
