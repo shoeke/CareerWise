@@ -3,9 +3,8 @@ html {
 }
 body {
   font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-  color: #445D3E;
-  padding-top: 9em;
-  background-color: #FDFEED;
+  color:#0C515D;
+  background-color:#ffffff;
 }
 h1, h2 {
   font-weight: 600;
@@ -15,14 +14,17 @@ h1 {
 }
 h2 {
   font-size: 1.65rem;
-  color: #6EBEA0;
+  color: #1CBCD9;
+}
+.logoBox {
+  padding: 0;
 }
 .navbar {
-  background-color: #FBFCCA;
-  color: green;
+  background-color: #CDF2F8;
+  color: darkslategray;
   font-size: 1.1rem;
   -webkit-box-shadow: 0px 2px 5px #e0e0e0;
-  box-shadow: 0px 2px 5px #e0e0e0;
+  box-shadow: none;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -30,11 +32,11 @@ h2 {
   margin: 1em auto 0;
   padding-bottom: .75em;
   text-align: center;
-  color: #EA7822;
+  color: #D8381C;
 	font-size: 2.2rem;
 }
 .nav-footer {
-  background-color: #6EBEA0;
+  background-color: #1CBCD9;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -45,12 +47,12 @@ h2 {
   padding: 0;
 }*/
 .sidebar form {
-  border: 2px solid #EA7822;
-  background-color: #FCFDD3;
+  border-radius: 15px;
+  background-color: #C7E9FB;
 }
 .bottombar {
   display: none !important;
-  border-top: 2px solid #EA7822;
+  border-top: 2px solid #D8381C;
   padding-top: 1.5em;
 }
 .bottombar .social {
@@ -64,8 +66,29 @@ h2 {
   padding-left: 1vw;
   padding-bottom: 3vh;
 }
-.header-row, .footer {
-  background-color: #6EBEA0;
+.header-row {
+	background-image: url("../images/red_wave.svg");
+	background-position: 0 -8vw;
+	background-size: 100vw 25vw;
+	background-repeat: no-repeat;
+	height: 17vw;
+}
+.header-row h1 {
+  font-family: report, sans-serif;
+  font-size: 1.85rem;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  margin-top: .5em;
+}
+.header-row span {
+  font-style: italic;
+  letter-spacing: 0.3px;
+}
+.footer {
+  background-color: #D8381C;
+}
+.footer-cert {
+  padding: 0;
 }
 .tagline {
   color: #fff;
@@ -73,7 +96,6 @@ h2 {
 .hero-image + button {
   width: 50%;
 }
-.intro-text {}
 #sidebar {
   display: block;
 }
@@ -88,7 +110,7 @@ ul.nav {
   padding: 2vw 5vw 2vw 5vw;
 }
 footer {
-  background-color: #6EBEA0;
+  background-color: #1CBCD9;
 }
 footer a {
   color: #fff;
@@ -98,7 +120,7 @@ footer a {
 }
 .btn-primary {
   border: none;
-  background-color: #6EBEA0;
+  background-color: #1CBCD9;
 }
 a.btn-primary {
   color: #FFFFFF;
@@ -113,7 +135,7 @@ a.btn-primary {
   background-color: #fff;
 }
 .card {
-  border: 1px solid #EA7822;
+  border: 1px solid #D8381C;
 }
 .employee {
   display: flex;
@@ -121,14 +143,14 @@ a.btn-primary {
   background-color: #fff;
 }
 .employee h5 {
-  color: #EA7822;
+  color: #D8381C;
   text-transform: uppercase;
 }
 .img-emp {
   width: 50%;
 }
 .employee .caption p:first-of-type {
-  color: #6EBEA0;
+  color: #1CBCD9;
 }
 .employee .caption p a {
   color: #394D34;
@@ -140,7 +162,7 @@ a.btn-primary {
   line-height: 1.1em;
 }
 .step-icon {
-  background-color: #EA7822;
+  background-color: #D8381C;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -173,7 +195,7 @@ a.btn-primary {
 }
 
 .btn-info {
-  background-color: rgba(234, 120, 34, 1.00);
+  background-color: #D8381C;
   border: none;
   align-self: flex-end;
 }
@@ -203,7 +225,7 @@ a.btn-primary {
 	padding-left: 5px;
 }
 .services-table h4 {
-  color: #6EBEA0;
+  color: #1CBCD9;
   text-transform: uppercase;
   text-weight: 700;
 }
@@ -240,16 +262,16 @@ ul {
   color: #fff;
 }
 .client-glo-cards i {
-  color: #EA7822;
+  color: #D8381C;
 }
 .coach-glo-cards h4, h2.coach {
-  background-color: #EA7822;
+  background-color: #D8381C;
 }
 .coach-glo-cards i {
-  color: #6EBEA0;
+  color: #1CBCD9;
 }
 .client-glo-cards h4, h2.client {
-  background-color: #6EBEA0;
+  background-color: #1CBCD9;
 }
 .glo-info {
   width: 100%;
@@ -265,7 +287,7 @@ img.rounded-circle {
   min-width: 275px;
 }
 .industry {
-  color: #EA7822;
+  color: #D8381C;
   font-size: 1.25rem;
   text-transform: uppercase;
   text-align: center;
@@ -283,7 +305,7 @@ img.rounded-circle {
   color: #394D34;
 }
 .navbar-nav.mx-auto .nav-item .nav-link:hover {
-  color: #EA7822;
+  color: #D8381C;
 }
 .nav-footer {}
 .nav-footer .nav-link {
@@ -296,7 +318,7 @@ img.rounded-circle {
 .d-flex-column {}
 .justify-self-center {}
 .nav-pills li a {
-  color: #EA7822;
+  color: #D8381C;
 }
 .nav-pills li {
   margin-bottom: 7px;
@@ -307,12 +329,10 @@ img.rounded-circle {
 	padding-right: 1em;
 }
 .services-table tr {
-  border-bottom: 2px solid #ea7822;
+  border-bottom: 2px solid #D8381C;
 }
 @media (max-width:991px) {
-  body {
-    padding-top: 7em;
-  }
+
   header h1 {
     font-size: 1.75rem;
   }
@@ -324,12 +344,8 @@ img.rounded-circle {
   }
 }
 @media (max-width:767px) {
-  header h1 {
-    text-align: center;
-  }
-  body {
-    padding-top: 12em;
-  }
+
+
   .hero-heading {
     font-size: 1.75rem;
   }
@@ -352,6 +368,13 @@ img.rounded-circle {
 	.step-card .caption {
 	max-width: 400px;
 }
+.header-row {
+  background-position: 0 -4vw;
+  height: 22vw;
+}
+.header-row span {
+  display: none;
+}
 }
 @media (max-width: 643px) {
   .coach-profile-cards {
@@ -367,12 +390,10 @@ img.rounded-circle {
     font-size: 1.5rem;
 		padding-bottom: .5em;
   }
-	.tagline {
-		display:none !important;
-	}
-	 body {
-    padding-top: 7em;
-  }
+.header-row h1 {
+  display:none;
+}
+	
 	.thumbnail .employee {
 		align-items: center;
 	}
@@ -394,17 +415,13 @@ img.rounded-circle {
 		padding-top: 5em;
 	}
 }
+@media (min-width: 1000px) {
+  .header-row h1 {
+    font-size: 1.5rem;
+  }
+}
 @media (min-width: 1600px) {
   body {
     padding-top: 12em;
   }
-}.px-lg-0 {
-}
-.btn-cta {
-}
-.p3 {
-}
-.mr-sm-3 {
-}
-.th-table-center {
-}
+
