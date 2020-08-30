@@ -137,9 +137,12 @@ footer a {
 }
 a.btn-primary {
   color: #FFFFFF;
+  width: 200px;
 }
 .btn-primary:hover, a:hover {
-  background-color: #F6FA7A;
+  background-color: #fff;
+  border-bottom: 2px solid #D8381C;
+  color: #0C515D;
 }
 .btn-primary:active, .btn-primary:focus, btn-primary:not(:disabled):not(.disabled):active {
   background-color: #FBFDD1 !important;
@@ -223,6 +226,10 @@ a.btn-primary {
 .img-thumbnail {
   border: none;
   margin-bottom: 8px;
+  
+}
+.img-emp .img-thumbnail {
+  border-radius: 15px 30px 15px 63px;
 }
 .services-table > tbody > tr > th {
   vertical-align: top;
@@ -267,6 +274,12 @@ ul {
   padding: 20px 20px 20px 40px;
   background-color: #fff;
 }
+h2.client, h2.coach {
+  border-radius: 15px 45px 0 0;
+}
+.coach-glo-cards .card, .client-glo-cards .card {
+  border-radius: 15px 45px 15px 63px;
+}
 .client-glo-cards .card-body, .coach-glo-cards .card-body {
 	padding: 8px;
 }
@@ -289,8 +302,14 @@ ul {
 .glo-info {
   width: 100%;
 }
+.glo-info h4 {
+  border-radius: 0 45px 0 0;
+}
 .glo-image {
   width: 25%;
+}
+.glo-image img {
+  border-radius: 15px 0 0 0 ;
 }
 img.rounded-circle {
   max-width: 150px;
@@ -298,6 +317,9 @@ img.rounded-circle {
 .coach-profile-cards {
   max-width: 400px;
   min-width: 275px;
+}
+.coach-profile-cards .card {
+  border-radius: 15px 75px 30px 50px;
 }
 .industry {
   color: #D8381C;
@@ -416,8 +438,10 @@ img.rounded-circle {
 	text-align: center;
 }
 	.img-emp .img-thumbnail {
-		width: 65%;
-	}
+    width: 65%;
+    
+  }
+
 	
  .caption.imp-emp  {
 	width: 100%;
